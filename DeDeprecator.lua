@@ -1,17 +1,4 @@
-<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
-	<External>null</External>
-	<External>nil</External>
-	<Item class="Script" referent="RBXF9C5F9C23EFD461DBD59A92B3CB4539A">
-		<Properties>
-			<BinaryString name="AttributesSerialize"></BinaryString>
-			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-			<bool name="DefinesCapabilities">false</bool>
-			<bool name="Disabled">false</bool>
-			<Content name="LinkedSource"><null></null></Content>
-			<string name="Name">DeDeprecator</string>
-			<token name="RunContext">0</token>
-			<string name="ScriptGuid">{3cbe6dca-22b8-92d2-4004-1057b4d36813}</string>
-			<ProtectedString name="Source"><![CDATA[--!strict
+--!strict
 local toolbar=plugin:CreateToolbar("DeDeprecator")
 local deDeprecatorB=toolbar:CreateButton("DeDeprecate selected","DeDeprecate the selected objects.","rbxassetid://138146368324277")
 deDeprecatorB.Enabled=false
@@ -160,9 +147,4 @@ end)
 infoB.Click:Connect(function()
 	infoM.Enabled=not infoM.Enabled
 	infoB:SetActive(infoM.Enabled)
-end)]]></ProtectedString>
-			<int64 name="SourceAssetId">-1</int64>
-			<BinaryString name="Tags"></BinaryString>
-		</Properties>
-	</Item>
-</roblox>
+end)
